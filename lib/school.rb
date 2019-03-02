@@ -21,8 +21,8 @@ class School
   
   def sort
     new = {}
-    @roster.map do |grade, name|
-      grade[name].
+    @roster.each do |grade, name|
+      grade[name]
     end
   end
   
