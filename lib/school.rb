@@ -18,11 +18,7 @@ class School
   def grade(num)
     @roster[num]
   end
-  
-  def sort
-    @roster.keys.each {grade| @roster[grade].sort!}
-    @roster
-  end
+
   
   
 end
