@@ -21,7 +21,6 @@ class School
   
   def sort
    @roster.keys.each {grade| @roster[grade].sort!}
-  
     @roster
   end
   
