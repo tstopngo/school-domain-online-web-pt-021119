@@ -20,11 +20,10 @@ class School
   end
   
   def sort
-    new = {}
-    roster.keys.each do |name|
+   @roster.keys.each do |name|
       @roster[name].sort!
     end
-    return new
+    @roster
   end
   
   
