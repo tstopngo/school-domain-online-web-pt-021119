@@ -20,8 +20,8 @@ class School
   end
 
   def sort
-    @roster.each do 
-      
+    @roster.keys.each do 
+      @roster
   
   end
   
