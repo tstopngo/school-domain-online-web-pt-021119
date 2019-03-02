@@ -24,6 +24,7 @@ class School
     @roster.each do |grade, name|
       new[grade] = name.sort
     end
+    return new
   end
   
   
