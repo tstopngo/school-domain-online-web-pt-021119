@@ -20,8 +20,8 @@ class School
   end
 
   def sort
-    @roster.keys.each do |name|
-      @roster
+    @roster.keys.each do |grade|
+      @roster[grade]
   
   end
   
